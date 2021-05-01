@@ -7,11 +7,11 @@ import {
   SpawnOptionsWithoutStdio,
 } from 'child_process';
 
-import { createDebug, createLogger, LOG_TAG_NAME } from './log';
+import { createDebug, createLogger, LOG_TARGET_KEY } from './log';
 
 const loggerCmd = {
-  stdout: createDebug(`${LOG_TAG_NAME}:stdout`),
-  stderr: createDebug(`${LOG_TAG_NAME}:stderr`),
+  stdout: createDebug(LOG_TARGET_KEY.CMD_OUT),
+  stderr: createDebug(LOG_TARGET_KEY.CMD_ERR),
 };
 
 const logger = createLogger('run-cmd');
