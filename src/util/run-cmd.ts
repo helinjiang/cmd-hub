@@ -16,6 +16,8 @@ const loggerCmd = {
 
 const logger = createLogger('run-cmd');
 
+// TODO 可以考虑用 https://github.com/sindresorhus/execa 来代替
+
 /**
  * 使用 spawn 来执行指定的命令
  * @param {String} command
