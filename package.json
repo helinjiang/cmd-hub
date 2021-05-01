@@ -1,6 +1,6 @@
 {
   "name": "cmd-hub",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Use node to run cmd and manager cmd",
   "main": "lib/index.js",
   "scripts": {
