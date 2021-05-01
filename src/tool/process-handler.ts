@@ -1,6 +1,6 @@
 import { ChildProcess } from 'child_process';
 import { runByExec } from '../util/run-cmd';
-import { createLogger } from '../util/logger';
+import { createLogger } from '../util/log';
 
 const logger = createLogger('process-handler');
 

@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 import yaml from 'js-yaml';
-import { createLogger } from './logger';
+import { createLogger } from './log';
 
 const logger = createLogger('yaml');
 

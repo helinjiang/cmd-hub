@@ -7,7 +7,7 @@ import {
   SpawnOptionsWithoutStdio,
 } from 'child_process';
 
-import { createDebug, createLogger, LOG_TAG_NAME } from './logger';
+import { createDebug, createLogger, LOG_TAG_NAME } from './log';
 
 const loggerCmd = {
   stdout: createDebug(`${LOG_TAG_NAME}:stdout`),

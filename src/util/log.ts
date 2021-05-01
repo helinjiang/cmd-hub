@@ -6,7 +6,7 @@ interface createLoggerReturn {
   error: debug.Debugger;
 }
 
-export const LOG_TAG_NAME = process.env.LOG_TAG_NAME || 'matman';
+export const LOG_TAG_NAME = process.env.LOG_TAG_NAME || 'cmd-hub';
 
 const LOG_LEVEL = {
   ERROR: 'error',

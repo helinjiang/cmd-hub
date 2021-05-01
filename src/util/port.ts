@@ -1,6 +1,6 @@
 import net from 'net';
 import { runByExec } from './run-cmd';
-import { createLogger } from './logger';
+import { createLogger } from './log';
 
 const logger = createLogger('port');
 

@@ -1,7 +1,7 @@
 import path from 'path';
 import axios from 'axios';
 import fs from 'fs-extra';
-import { createLogger } from './logger';
+import { createLogger } from './log';
 
 const logger = createLogger('base');
 

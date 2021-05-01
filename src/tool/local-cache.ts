@@ -4,7 +4,7 @@ import osenv from 'osenv';
 import _ from 'lodash';
 import { killPids } from './process-handler';
 import * as yaml from '../util/yaml';
-import { createLogger } from '../util/logger';
+import { createLogger } from '../util/log';
 import { killPort } from '../util/port';
 
 const logger = createLogger('local-cache');
